@@ -252,10 +252,8 @@ function App() {
   return (
     <div className="app-container">
       
-      {/* Background Animation */}
       <BackgroundEffects analyser={analyserRef.current} isPlaying={isPlaying} />
 
-      {/* App Logo */}
       <a 
         href="https://www.instagram.com/raxel__music?igsh=MTJma28zM2htNjU1ZQ==" 
         onClick={(e) => {
@@ -301,10 +299,8 @@ function App() {
         />
       </a>
 
-      {/* Main Content */}
       <div className="main-content">
         
-        {/* Mobile/Tablet Playlist Toggle */}
         <button 
           className="icon-btn" 
           onClick={() => setIsPlaylistOpen(!isPlaylistOpen)}
@@ -313,13 +309,10 @@ function App() {
           {isPlaylistOpen ? <X /> : <Menu />}
         </button>
 
-        {/* Theme Selector */}
         <ThemeSelector addToast={addToast} />
 
-        {/* Sleep Timer */}
         <SleepTimer onTimerComplete={() => setIsPlaying(false)} />
 
-        {/* Player Section */}
         <div className="player-wrapper">
           <Player 
             currentSong={currentSong}
@@ -350,7 +343,6 @@ function App() {
           />
         </div>
 
-        {/* Playlist Section (Desktop: Always visible if space permits, Mobile: Drawer) */}
         <AnimatePresence>
           {isPlaylistOpen && (
             <motion.div
@@ -384,7 +376,6 @@ function App() {
           )}
         </AnimatePresence>
         
-        {/* Toast Container */}
         <ToastContainer toasts={toasts} removeToast={removeToast} />
 
       </div>
