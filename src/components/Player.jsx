@@ -64,7 +64,6 @@ const Player = ({ currentSong, isPlaying, setIsPlaying, onNext, onPrev, progress
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      {/* Album Art */}
       <motion.div 
         className="album-art-container"
         style={{ 
@@ -92,7 +91,6 @@ const Player = ({ currentSong, isPlaying, setIsPlaying, onNext, onPrev, progress
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         />
         
-        {/* Text Overlay */}
         {coverText && (
           <div style={{
             position: 'absolute',
@@ -128,7 +126,6 @@ const Player = ({ currentSong, isPlaying, setIsPlaying, onNext, onPrev, progress
           </div>
         )}
 
-        {/* Overlay Gradient for readability */}
         <div style={{
           position: 'absolute',
           bottom: 0,
@@ -141,12 +138,10 @@ const Player = ({ currentSong, isPlaying, setIsPlaying, onNext, onPrev, progress
       </motion.div>
 
       <div className="player-controls-section">
-        {/* Visualizer */}
         <Visualizer isPlaying={isPlaying} analyser={analyser} />
 
         <div className="song-info" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2rem', width: '100%' }}>
           <div style={{ textAlign: 'left', overflow: 'hidden', flex: 1, minWidth: 0, width: '0' }}>
-            {/* Title */}
             {currentSong?.title.length > 12 ? (
               <div className="scrolling-text-container">
                 <div className="scrolling-text-seamless">
@@ -162,7 +157,6 @@ const Player = ({ currentSong, isPlaying, setIsPlaying, onNext, onPrev, progress
               </h2>
             )}
 
-            {/* Artist */}
             <p style={{ color: 'var(--text-secondary)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
               {currentSong ? currentSong.artist : '...'}
             </p>
@@ -176,7 +170,6 @@ const Player = ({ currentSong, isPlaying, setIsPlaying, onNext, onPrev, progress
           </button>
         </div>
 
-        {/* Progress Bar */}
         <div className="progress-section" style={{ width: '100%', marginBottom: '1.5rem' }}>
           <div 
             ref={progressBarRef}
@@ -221,7 +214,6 @@ const Player = ({ currentSong, isPlaying, setIsPlaying, onNext, onPrev, progress
           </div>
         </div>
 
-        {/* Controls */}
         <div className="controls-row">
           <button 
             className="icon-btn" 
@@ -260,7 +252,6 @@ const Player = ({ currentSong, isPlaying, setIsPlaying, onNext, onPrev, progress
 
         </div>
 
-        {/* Volume */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', width: '100%' }}>
           <Volume2 size={20} color="var(--text-secondary)" />
           <input 
