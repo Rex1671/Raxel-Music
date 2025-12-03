@@ -9,7 +9,7 @@ const SONGS_DIR = path.join(__dirname, '../public/songs');
 const SECURE_SONGS_DIR = path.join(__dirname, '../public/songs-secure');
 const BGM_DIR = path.join(__dirname, '../public/bgm');
 const SECURE_BGM_DIR = path.join(__dirname, '../public/bgm-secure');
-const KEY = 0xAA; // Simple XOR key
+const KEY = 0xAA; 
 
 const encryptDirectory = (inputDir, outputDir) => {
     if (!fs.existsSync(outputDir)) {
