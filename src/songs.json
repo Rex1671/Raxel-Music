@@ -1,0 +1,93 @@
+[
+    {
+        "title": "Chasing the Horizon",
+        "artist": "Rakesh R",
+        "src": "/bgm-secure/Chasing the Horizon (1).mp3",
+        "cover": "/images/chasing_horizon.png",
+        "category": "bgm"
+    },
+    {
+        "title": "Chasing the Horizon (Alt)",
+        "artist": "Rakesh R",
+        "src": "/bgm-secure/Chasing the Horizon.mp3",
+        "cover": "/images/chasing_horizon.png",
+        "category": "bgm"
+    },
+    {
+        "title": "Epic Uplifted Spirits",
+        "artist": "Rakesh R",
+        "src": "/bgm-secure/Epic Uplifted Spirits (1).mp3",
+        "cover": "/images/epic_spirits.png",
+        "category": "bgm"
+    },
+    {
+        "title": "Epic Uplifted Spirits (Var 1)",
+        "artist": "Rakesh R",
+        "src": "/bgm-secure/Epic Uplifted Spirits (2).mp3",
+        "cover": "/images/epic_spirits.png",
+        "category": "bgm"
+    },
+    {
+        "title": "Epic Uplifted Spirits (Var 2)",
+        "artist": "Rakesh R",
+        "src": "/bgm-secure/Epic Uplifted Spirits (3).mp3",
+        "cover": "/images/epic_spirits.png",
+        "category": "bgm"
+    },
+    {
+        "title": "Epic Uplifted Spirits (Original)",
+        "artist": "Rakesh R",
+        "src": "/bgm-secure/Epic Uplifted Spirits.mp3",
+        "cover": "/images/epic_spirits.png",
+        "category": "bgm"
+    },
+    {
+        "title": "Dil Ki Udaan",
+        "artist": "Anuradha K, Rakesh R",
+        "src": "/songs-secure/Dil Ki Udaan (1).mp3",
+        "cover": "/images/cover_dil_ki_udaan.png",
+        "category": "songs"
+    },
+    {
+        "title": "Slowly Fallin’",
+        "artist": "Nandini N, Rakesh R",
+        "src": "/songs-secure/Slowly Fallin’.mp3",
+        "cover": "/images/slowly_fallin.png",
+        "category": "songs"
+    },
+    {
+        "title": "Taaron Ke Saath",
+        "artist": "Nandini N, Rakesh R",
+        "src": "/songs-secure/Taaron Ke Saath.mp3",
+        "cover": "/images/tarron_ke_sath.png",
+        "category": "songs"
+    },
+    {
+        "title": "Tera Mera Afsana",
+        "artist": "Anuradha K, Rakesh R",
+        "src": "/songs-secure/Tera mera afsana.mp3",
+        "cover": "/images/tera_mera_afsana.png",
+        "category": "songs"
+    },
+    {
+        "title": "Tere Mere Darmiyaan",
+        "artist": "Nandini N, Rakesh R",
+        "src": "/songs-secure/Tere Mere Darmiyaan (1).mp3",
+        "cover": "/images/tere_mere_darmiyaan.png",
+        "category": "songs"
+    },
+    {
+        "title": "Tum Aur Main",
+        "artist": "Prachi G, Rakesh R",
+        "src": "/songs-secure/Tum Aur Main.mp3",
+        "cover": "/images/tum_aur_main.png",
+        "category": "songs"
+    },
+    {
+        "title": "Dil Ki Baat",
+        "artist": "Anuradha K, Rakesh R",
+        "src": "/songs-secure/Verse 1 (very soft, almost whisper-singi.mp3",
+        "cover": "/images/verse_1.png",
+        "category": "songs"
+    }
+]
