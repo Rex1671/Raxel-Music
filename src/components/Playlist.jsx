@@ -39,7 +39,6 @@ const Playlist = ({ songs, currentSong, onSongSelect, isOpen, onClose, filter, s
         <Music size={20} /> Library
       </h3>
 
-      {/* Search Bar */}
       <div style={{ 
         position: 'relative', 
         marginBottom: '1rem', 
@@ -68,7 +67,6 @@ const Playlist = ({ songs, currentSong, onSongSelect, isOpen, onClose, filter, s
         />
       </div>
 
-      {/* Category Tabs */}
       <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', background: 'rgba(255,255,255,0.05)', padding: '4px', borderRadius: '12px' }}>
         {tabs.map(tab => (
           <button
